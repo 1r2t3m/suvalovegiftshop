@@ -260,7 +260,11 @@
 .product-item small a:hover {
     color: var(--primary) !important;
 }
-
+@media(max-width:768px){
+    .product-item img {
+    height: auto;
+    }
+}
 /*** Team ***/
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
